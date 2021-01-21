@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch13-06</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        .myresponsive {
+            width: 100%;
+            /* max-width:100%; */
+        }
+
+        .a {
+            width: 980px;
+            height: 150px;
+        }
+
+        .c {
+            text-align: center
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Zoo</h1>
+        </div>
+        <nav class="navbar navbar-default">
+            <!-- 選單表頭區塊 -->
+            <div class="navbar-header">
+                <!-- 按鈕 -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- 選單 -->
+            <div id="mynav" class="navbar-collapse collapse">
+                <ul class="navbar-nav nav">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Ticket.html">Ticket</a></li>
+                    <li><a href="Animal.html">Animal</a></li>
+                    <li><a href="Map.html">Map</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 相片輪播元件 -->
+        <div id="photoCarousel" class="carousel slide vertical" data-ride="carousel" data-interval="1000">
+            <!-- Indicators 瀏覽控制 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  -->
+            <!-- 建立相片清單 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="photo/1.jpg" class="a">
+                </div>
+                <div class="item">
+                    <img src="photo/2.jpg" class="a">
+                </div>
+                <div class="item">
+                    <img src="photo/3.jpg" class="a">
+                </div>
+            </div>
+        </div>
+        <h1>聯絡資訊</h1>
+        <h3>受理電子郵件諮詢<br></h3>
+        <p>請將您的意見填於「臺北市立動物園受理電子郵件諮詢」網路表單內，我們將於收件次日起6個工作天內為您解答，若您急需解答，請您直接向遊客服務中心（02）2938-2300 分機 630 洽詢。
+
+            如屬廣告信件、學生作業、迭次來信、大量來信或內容繁複顯有耗費機關行政資源信件，以不回信為原則。
+
+            如屬人民陳情案件，將依「臺北市政府及所屬各機關處理人民陳情案件注意事項」及「臺北市政府單一陳情系統作業程序」處理回覆。</p>
+</body>
+</html>
